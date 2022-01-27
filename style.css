@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    
+    color: white;
+}
+body {
+    background-color: #0d0d0d;
+}
+.top-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    padding: 15px 0px;
+    box-shadow: 0px 10px 15px black;
+    font-weight: bold;
+}
+.top-bar > p {
+    font-size: 3.5rem;
+}
+#demo {
+    font-size: 6rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.mini {
+    text-decoration: underline;
+    position: relative;
+    top: -15px;
+}
